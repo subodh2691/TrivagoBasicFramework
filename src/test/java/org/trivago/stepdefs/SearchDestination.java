@@ -1,8 +1,6 @@
 package org.trivago.stepdefs;
 
 import org.trivago.resources.PrePostSteps;
-import org.trivago.resources.Reporter;
-import org.trivago.actions.CommonPageActions;
 import org.trivago.actions.HomePageActions;
 
 import cucumber.api.Scenario;
@@ -12,7 +10,6 @@ import junit.framework.Assert;
 public class SearchDestination 
 {
 	private PrePostSteps prePostSteps;
-	public CommonPageActions common;
 	public Scenario scenario;
 //	public CreateTestReport testReport;
 	

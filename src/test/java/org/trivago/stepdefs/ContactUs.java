@@ -1,8 +1,6 @@
 package org.trivago.stepdefs;
 
 import org.trivago.resources.PrePostSteps;
-import org.trivago.resources.Reporter;
-import org.trivago.actions.CommonPageActions;
 import org.trivago.actions.ContactPageActions;
 import org.trivago.actions.HomePageActions;
 
@@ -10,11 +8,9 @@ import cucumber.api.Scenario;
 import cucumber.api.java.en.*;
 import junit.framework.Assert;
 
-@SuppressWarnings("deprecation")
 public class ContactUs 
 {
 	private PrePostSteps prePostSteps;
-	public CommonPageActions common;
 	public Scenario scenario;
 //	public CreateTestReport testReport;
 	

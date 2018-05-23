@@ -22,7 +22,14 @@ public class ContactPageActions {
 		wait=obj.wait;
 //		this.test=testReport.test;
 	}
-	
+	/**
+	 * 
+		Created By: Subodh Agnihotri
+		Method Name: verify_page. Verifies contact page
+		Return Type: boolean
+		Date Created: 24-May-2018
+	*
+	 */
 	public boolean verify_page() {
 		
 		ContactPageObjects objContact = new ContactPageObjects(driver);
@@ -40,7 +47,14 @@ public class ContactPageActions {
 		}
 		
 	}
-	
+	/**
+	 * 
+		Created By: Subodh Agnihotri
+		Method Name: enter_message. Enters the given message in message box of contact page
+		Return Type: boolean
+		Date Created: 24-May-2018
+	*
+	 */
 	public boolean enter_message(String message) {
 		
 		ContactPageObjects objContact = new ContactPageObjects(driver);
@@ -54,6 +68,14 @@ public class ContactPageActions {
 		}
 	}
 	
+	/**
+	 * 
+		Created By: Subodh Agnihotri
+		Method Name: enter_name_email. Enters Full name and Email in respective text boxes
+		Return Type: boolean
+		Date Created: 24-May-2018
+	*
+	 */
 	public boolean enter_name_email(String Name, String email) {
 		ContactPageObjects objContact = new ContactPageObjects(driver);
 		try {
@@ -67,6 +89,14 @@ public class ContactPageActions {
 		}
 	}
 	
+	/**
+	 * 
+		Created By: Subodh Agnihotri
+		Method Name: submit_contact_form. Submits the contact form
+		Return Type: boolean
+		Date Created: 24-May-2018
+	*
+	 */
 	public boolean submit_contact_form() {
 		wait = new WebDriverWait(driver, 10);
 		ContactPageObjects objContact = new ContactPageObjects(driver);
