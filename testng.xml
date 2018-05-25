@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Trivago Test Suite" verbose="1" >
+ 
+  <test name="Testing Trivago Room5">
+    <classes>
+      <class name="org.trivago.resources.TrivagoAutomationRunner"/>
+    </classes>
+  </test>
+</suite>
